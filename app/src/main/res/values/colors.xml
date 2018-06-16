@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b64ebc</color>
+    <color name="primaryLightColor">#ea7fef</color>
+    <color name="colorPrimaryDark">#84188b</color>
+    <color name="secondaryColor">#0bdfbf</color>
+    <color name="secondaryLightColor">#68fff2</color>
+    <color name="colorAccent">#68fff2</color>
+    <color name="secondaryDarkColor">#00ac8f</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="tertiaryColor">#39a0bc</color>
+    <color name="tertiaryLightColor">#72d1ef</color>
+    <color name="tertiaryDarkColor">#00718c</color>
+    <color name="tertiaryTextColor">#000000</color>
+    <color name="fourthDarkColor">#00796b</color>
+    <color name="whiteText">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="divider">#66ffffff</color>
+    <color name="divider2">#f5f101</color>
+    <color name="gridBackground">#f0f0f0</color>
+    <color name="gridBackground2">#d7d7d7</color>
+    <color name="listBackground">#f0f0f0</color>
+    <color name="pink">#ec407a</color>
+    <color name="pinkDark">#b4004e</color>
+    <color name="pinkLight">#ff77a9</color>
+    <color name="blue">#5c6bc0</color>
+    <color name="blueDark">#26418f</color>
+    <color name="blueLight">#8e99f3</color>
+    <color name="orange">#f57c00</color>
+    <color name="orangeDark">#bb4d00</color>
+    <color name="orangeLight">#ffad42</color>
+</resources>

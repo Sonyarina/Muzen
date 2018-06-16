@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Muzen</string>
+    <string name="app_logo">muzen</string>
+    <string name="icon_description">Album Art</string>
+    <string name="play_button">Play Button</string>
+    <string name="ff_button">Fast Forward Button</string>
+    <string name="rw_button">Rewind Button</string>
+    <string name="thumbs_down_button">Thumbs Down Button</string>
+    <string name="thumbs_up_button">Thumbs Up Button</string>
+    <string name="default_song_name_key">Namaste</string>
+    <string name="default_artist_name_key">Suzy Light</string>
+    <string name="default_album_art_key">R.drawable.namaste</string>
+    <string name="default_category">Meditation</string>
+
+    <string name="slogan">Music for Mind, Body, Spirit</string>
+    <string name="icon_category_0">Home</string>
+    <string name="icon_category_2">Yoga</string>
+    <string name="icon_category_3">Energy</string>
+    <string name="icon_category_4">Sleep</string>
+    <string name="icon_category_1">Meditate</string>
+    <string name="song_category_1">Meditation</string>
+    <string name="song_category_1_descrip">Meditation creates a relaxation response which helps decrease metabolism, lowers blood pressure, and improves heart rate, breathing, and brain waves. </string>
+    <string name="song_category_2">Yoga</string>
+    <string name="song_category_2_descrip">Yoga outperforms aerobic exercise at improving flexibility, balance, strength, daily energy level, and social and occupation functioning, and more!</string>
+    <string name="song_category_3">Energy</string>
+    <string name="song_category_3_descrip">These songs are a fast and effective audio-based way to stimulate your brain. They can help improve focus, relaxation, energy levels, sleep and more.</string>
+    <string name="song_category_4">Sleep</string>
+    <string name="song_category_4_descrip">Listen to soothing white noise and other binaural beats to achieve deep sleep. The beats help induce delta waves, the brainwave associated with sleeping.</string>
+    <string name="featured">Featured</string>
+    <string name="view_more">View All</string>
+    <string name="home_grid_description">Get started by exploring the categories above or browse the featured songs list below.</string>
+    <string name="category_image">Category Image</string>
+    <string name="category_description">Category Description Text that shows a medium sized sentence for reference.</string>
+
+    <!--Artist Names-->
+    <string name="artist_name_1">Marisala Jones</string>
+    <string name="artist_name_2">Arina Mu</string>
+    <string name="artist_name_3">Lisa Orlando</string>
+    <string name="artist_name_4">Buba Williams</string>
+    <string name="artist_name_5">Suzy Light</string>
+    <string name="artist_name_6">Dream Master</string>
+    <string name="artist_name_7">Cory Ziggy</string>
+    <string name="artist_name_8">Z Experts</string>
+    <string name="artist_name_9">Sleep Fig</string>
+    <string name="artist_name_10">Yoga Day</string>
+    <string name="artist_name_11">Lian Johnson</string>
+    <string name="artist_name_12">Yoga Divas</string>
+    <string name="artist_name_13">Chakra Active</string>
+    <string name="artist_name_14">Zack Lewis</string>
+    <string name="artist_name_15">Lila Fitz</string>
+    <string name="artist_name_16">Mariah Merry</string>
+    <string name="artist_name_17">Illumineers</string>
+
+    <!--Song Names-->
+    <string name="song_name_1">Peace, Love, Zen</string>
+    <string name="song_name_2">Meeting</string>
+    <string name="song_name_3">Harmony</string>
+    <string name="song_name_4">Success</string>
+    <string name="song_name_5">Namaste</string>
+    <string name="song_name_6">Healing Sleep</string>
+    <string name="song_name_7">Slumber</string>
+    <string name="song_name_8">Above The Sky</string>
+    <string name="song_name_9">Abstract Sleep</string>
+    <string name="song_name_10">Yoga</string>
+    <string name="song_name_11">Yoga Mind</string>
+    <string name="song_name_12">Reach Balance</string>
+    <string name="song_name_13">Yoga</string>
+    <string name="song_name_14">Feel The Energy</string>
+    <string name="song_name_15">Happy Music</string>
+    <string name="song_name_16">Energy</string>
+    <string name="song_name_17">Positive Energy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

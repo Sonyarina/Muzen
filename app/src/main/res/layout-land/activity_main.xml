@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/narrow_list_activity_margin"
+        android:layout_marginTop="@dimen/narrow_list_activity_margin"
+        android:elevation="@dimen/card_elevation"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/app_logo"
+        android:textColor="@color/whiteText"
+        android:textSize="@dimen/app_title_size"
+        tools:targetApi="21" />
+
+    <LinearLayout
+        android:id="@+id/icon_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/card_elevation"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        tools:targetApi="21">
+
+        <TextView
+            android:id="@+id/home_button"
+            style="@style/icon_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:drawableTop="@drawable/home_icon"
+            android:text="@string/icon_category_0"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/meditation_button"
+            style="@style/icon_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/meditate_icon"
+            android:text="@string/icon_category_1" />
+
+        <TextView
+            android:id="@+id/energy_button"
+            style="@style/icon_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/energy_icon"
+            android:text="@string/icon_category_3" />
+
+        <TextView
+            android:id="@+id/yoga_button"
+            style="@style/icon_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/yoga_icon"
+            android:text="@string/icon_category_2" />
+
+        <TextView
+            android:id="@+id/sleep_button"
+            style="@style/icon_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/sleep_icon"
+            android:text="@string/icon_category_4" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/grid_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="@dimen/card_elevation"
+        android:paddingBottom="@dimen/grid_view_vertical_padding"
+        android:paddingLeft="@dimen/activity_margin"
+        android:paddingRight="@dimen/activity_margin"
+        android:paddingTop="@dimen/narrow_list_activity_margin"
+        android:text="@string/home_grid_description"
+        android:textColor="@color/white"
+        android:textSize="@dimen/category_list_description_text_size"
+        android:visibility="gone"
+        tools:targetApi="21" />
+
+    <GridView
+        android:id="@+id/list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@color/gridBackground2"
+        android:columnWidth="@dimen/narrow_list_album_art_icon"
+        android:horizontalSpacing="@dimen/grid_view_padding"
+        android:numColumns="3"
+        android:paddingTop="@dimen/grid_view_vertical_padding"
+        android:stretchMode="spacingWidthUniform"
+        android:verticalSpacing="@dimen/grid_view_vertical_padding" />
+
+    <!--CardView contains Now Playing information-->
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/now_playing_card_view_bottom_height"
+        android:layout_margin="0dp"
+        android:focusedByDefault="true"
+        app:cardBackgroundColor="#ffffff"
+        app:cardElevation="@dimen/card_elevation"
+        tools:targetApi="26">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center_vertical"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:orientation="horizontal"
+            android:padding="@dimen/wide_list_item_vertical_margin">
+
+            <ImageView
+                android:id="@+id/album_art_icon"
+                android:layout_width="@dimen/wide_list_album_art_icon"
+                android:layout_height="@dimen/wide_list_album_art_icon"
+                android:contentDescription="@string/icon_description" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/wide_list_item_horizontal_margin">
+
+                <TextView
+                    android:id="@+id/song_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/whiteText"
+                    android:textSize="@dimen/wide_list_song_name_text_size"
+                    android:textStyle="bold"
+                    tools:text="Song Name" />
+
+                <TextView
+                    android:id="@+id/artist_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/whiteText"
+                    android:textSize="@dimen/wide_list_artist_name_text_size"
+                    tools:text="Artist Name" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/now_playing_play_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/play_button"
+                android:paddingRight="@dimen/narrow_list_activity_margin"
+                android:src="@drawable/baseline_play_circle_filled_white_white_48" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
