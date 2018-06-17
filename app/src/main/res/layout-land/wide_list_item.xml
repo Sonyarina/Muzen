@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2018 - Sonia M.
+    Some of the backgrounds used for Album Art were obtained from the site http://freepik.com
+	The Play/Pause/Skip icons are from http://material.io/icons
+	The category icons were obtained from http://flaticon.com
+    Artist Names are fictional, any likeness to actual artists is coincidental.
+--><!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="@dimen/landscape_wide_list_item_vertical_margin">
+
+    <ImageView
+        android:id="@+id/album_art_icon"
+        android:layout_width="@dimen/landscape_wide_list_album_art_icon"
+        android:layout_height="@dimen/landscape_wide_list_album_art_icon"
+        android:contentDescription="@string/icon_description"
+        android:tint="#00ffffff"
+        tools:targetApi="21" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/wide_list_item_horizontal_margin">
+
+        <TextView
+            android:id="@+id/song_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/wide_list_song_name_text_size"
+            android:textStyle="bold"
+            tools:text="Song Name" />
+
+        <TextView
+            android:id="@+id/artist_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/wide_list_artist_name_text_size"
+            tools:text="Artist Name" />
+
+        <!--Hidden Text View Which References Category Name-->
+        <TextView
+            android:id="@+id/song_category"
+            android:layout_width="@dimen/category_text_view_dimen"
+            android:layout_height="@dimen/category_text_view_dimen"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/list_item_play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/play_button"
+        android:paddingRight="@dimen/narrow_list_activity_margin"
+        android:src="@drawable/outline_play_circle_outline_white_48" />
+</LinearLayout>
